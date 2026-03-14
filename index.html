@@ -84,7 +84,7 @@ async function captureImage(){
         const response = await fetch(ESP32_URL)
 
         const blob = await response.blob()
-
+        console.log(blob)
         return blob
 
     }
